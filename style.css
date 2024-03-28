@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 600px;
+    background-color: black;
+    /* border: 2px solid black; */
+}
+
+nav{
+    width: 98%;
+    min-height: 80px; 
+    position: fixed;
+    top: 0;
+    overflow: hidden;  
+    /* background-color: black;  */
+    border: 1px solid yellow;
+}
+
+nav ul{
+    width: 98%;
+    display: flex;   
+    align-items: center;
+    gap: 3%;
+    justify-content: center;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    padding-top: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:rgba(255, 255, 255, 0.663);
+    text-decoration: underline;
+}
+
+/* first page css start*/
+#Home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    /* background-image: url(images/profile.png); 
+    background-repeat: no-repeat; */
+    /* border: 2px solid red; */
+}
+
+.first-page{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+  .first-page h2{
+    color: white;
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ .first-page p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    padding: 3px;
+}
+
+ #p1{
+   padding-top: 20px;
+}
+
+
+/* first page css end*/
+
+/*  about page start  */
+#About{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid palevioletred; */
+}
+
+.about-me-section{
+   width: 98%;
+   height: 18%;
+   margin-top: 80px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid orange; */
+}
+
+.about-me-section h2{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about-me-content{
+    width: 98%;
+    height: 70%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     /* border: 2px solid red; */
+}
+
+.img-section{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    /* border: 1px solid green; */
+}
+
+.img-section img{
+    width: 50%;
+    /* height: fit-content; */
+}
+
+.content-section{
+    width: 25%;
+    height: 98%;
+    /* margin-top: 60px; */
+    
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    line-height: 2.5;
+    /* justify-content: center; */
+    flex-direction: column ;
+    /* border: 1px solid white; */
+    border-left: 1px solid white;
+    /* background-color: lightpink; */
+}
+.content-section p{
+    color: white;
+    text-align: start;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*  about page end  */
+
+/* skills page start */
+#Skills{
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightgray; */
+    border: 1px solid white;
+}
+
+.skills-heading{
+    width: 98%;
+    height: 20%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    /* justify-content: center; */
+    /* border: 2px solid red; */
+}
+
+.skills-heading h2{
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.skills-section{
+    width: 98%;
+    height: 68%;
+    border: 1px solid orange;
+}
+
+/* skills page end */
+
+/* projects page start */
+#Projects{
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightgreen; */
+    border: 1px solid darkcyan;
+}
+
+/* projects page end */
+
+
+/* contact page start */
+#Contact{
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightpink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid greenyellow;
+}
+
+.contact-heading{
+    width: 98%;
+    height: 20%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightgray; */
+}
+
+.contact-heading h2{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact-content{
+    width: 98%;
+    height: 68%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.contact-content-left {
+    width: 58%;
+    height: 98%;
+    /* display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row; */
+    
+    /* background-color: lightgoldenrodyellow; */
+}
+
+input[type=text]{
+    width: 38%;
+    margin: 10px 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: none;
+    color: rgba(255, 255, 255, 0.874);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+input[type=text]::placeholder{
+    color: rgba(255, 255, 255, 0.816);
+}
+
+input[type=text]#message{
+    width: 79%;
+    margin: 10px 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: none;
+    color: rgba(255, 255, 255, 0.874);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    /* line-height: 20%; */
+}
+
+input[type=text]#message::placeholder{
+    color: rgba(255, 255, 255, 0.811);
+}
+
+.contact-content-right{
+    width: 38%;
+    height: 98%;
+    /* background-color: lightgreen; */
+}
+
+/* contact page end */
+
+/* #Home, #About, #Skills, #Projects, #Contact h2{
+    text-align: center;
+    padding-top: 100px;
+} */
